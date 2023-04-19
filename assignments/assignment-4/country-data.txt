@@ -1,0 +1,79 @@
+United States
+Population: 332,915,073
+Area: 9,834,000 sq. km
+GDP per capita: $63,543
+Capital city: Washington, D.C.
+Official language: English
+Currency: United States Dollar (USD)
+
+China
+Population: 1,444,216,107
+Area: 9,596,961 sq. km
+GDP per capita: $10,216
+Capital city: Beijing
+Official language: Chinese (Mandarin)
+Currency: Chinese Yuan (CNY)
+
+India
+Population: 1,393,409,038
+Area: 3,287,263 sq. km
+GDP per capita: $2,191
+Capital city: New Delhi
+Official languages: Hindi, English
+Currency: Indian Rupee (INR)
+
+United Kingdom
+Population: 68,207,116
+Area: 242,495 sq. km
+GDP per capita: $42,330
+Capital city: London
+Official language: English
+Currency: British Pound Sterling (GBP)
+
+Brazil
+Population: 213,993,437
+Area: 8,515,767 sq. km
+GDP per capita: $6,450
+Capital city: Brasília
+Official language: Portuguese
+Currency: Brazilian Real (BRL)
+Australia
+
+Population: 25,788,215
+Area: 7,692,024 sq. km
+GDP per capita: $53,825
+Capital city: Canberra
+Official language: English
+Currency: Australian Dollar (AUD)
+
+Japan
+Population: 126,050,804
+Area: 377,975 sq. km
+GDP per capita: $40,849
+Capital city: Tokyo
+Official language: Japanese
+Currency: Japanese Yen (JPY)
+
+Canada
+Population: 38,067,903
+Area: 9,984,670 sq. km
+GDP per capita: $46,194
+Capital city: Ottawa
+Official languages: English, French
+Currency: Canadian Dollar (CAD)
+
+Germany
+Population: 83,900,473
+Area: 357,022 sq. km
+GDP per capita: $52,556
+Capital city: Berlin
+Official language: German
+Currency: Euro (EUR)
+
+South Africa
+Population: 60,041,994
+Area: 1,221,037 sq. km
+GDP per capita: $6,040
+Capital cities: Pretoria (executive), Bloemfontein (judicial), Cape Town (legislative)
+Official languages: 11 official languages, including English, Afrikaans, Zulu, and Xhosa
+Currency: South African Rand (ZAR)
