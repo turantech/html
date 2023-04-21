@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Inputs</title>
+    </head>
+    <body>
+        <h1>We will understand the forms/inputs</h1>
+
+        <h2>Signup Form</h2>
+        <form>
+            <label for="fullNameInput">Full name</label>
+            <input
+                type="text"
+                placeholder="Full name"
+                id="fullNameInput"
+                name="fullName"
+                required
+                autofocus
+                value="Safarali"
+            />
+            <label for="emailInput">Email</label>
+            <input
+                type="email"
+                placeholder="Email"
+                id="emailInput"
+                name="email"
+                required
+                value="ali@ali.com"
+            />
+            <label for="passwordInput">Password</label>
+            <input
+                type="password"
+                placeholder="Password"
+                id="passwordInput"
+                name="password"
+                required
+            />
+            <label for="checkboxInput">I promise everything is correct</label>
+            <input type="checkbox" id="checkboxInput" name="promise" required />
+            <div>
+                <p>What is your gender</p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" />
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" />
+            </div>
+            <input type="reset" value="Reset Form Data" />
+            <label for="profileImage">Upload your image</label>
+            <input type="file" name="avatar" id="profileImage" />
+            <label for="telInput">Phone Number: 231-456-7890</label>
+            <input
+                type="tel"
+                required
+                id="telInput"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                name="phoneNumber"
+            />
+
+            <label for="dobInput">Data of birth</label>
+            <input
+                type="date"
+                name="dob"
+                id="dobInput"
+                max="2007-01-01"
+                min="1983-01-01"
+            />
+            <label for="ageInput">Age</label>
+            <input type="number" id="ageInput" name="age" min="14" max="40" />
+
+            <input type="submit" value="Sign up" />
+        </form>
+    </body>
+</html>
