@@ -25,14 +25,21 @@
                 </div>
                 <div>
                     <label for="emailInput">Email:</label>
-                    <input type="email" name="email" id="emailInput" required />
+                    <input
+                        type="email"
+                        name="email"
+                        id="emailInput"
+                        pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                        required
+                    />
                 </div>
                 <div>
                     <label for="phoneNumberInput">Phone Number:</label>
                     <input
                         type="tel"
-                        name="phoneNumber"
-                        id="phoneNumberInput"
+                        name="phone"
+                        id="phoneInput"
+                        pattern="^(\([0-9]{3}\)|[0-9]{3}-)[0-9]{3}-[0-9]{4}$"
                         required
                     />
                 </div>
@@ -43,7 +50,7 @@
                         name="birthdate"
                         id="birthdateInput"
                         min="1900-01-01"
-                        max="2099-12-31"
+                        max="2023-12-31"
                         required
                     />
                 </div>
@@ -53,8 +60,7 @@
                         type="number"
                         name="age"
                         id="ageInput"
-                        min="1"
-                        max="120"
+                        min="13"
                         required
                     />
                 </div>
@@ -169,7 +175,8 @@
                     <input
                         type="url"
                         name="website"
-                        id="websiteInput"
+                        id="urlInput"
+                        pattern="https?://.+"
                         required
                     />
                 </div>
@@ -185,8 +192,8 @@
                         type="range"
                         name="satisfactionRating"
                         id="satisfactionRatingInput"
-                        min="0"
-                        max="100"
+                        min="1"
+                        max="10"
                         step="1"
                         required
                     />
