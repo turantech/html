@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Assignment-8.1</title>
+    </head>
+    <body>
+        <h1>Assignment-8.1</h1>
+        <h2>Newsletter Form</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label>
+                        Full Name:
+                        <input
+                            type="text"
+                            name="fullName"
+                            placeholder="Full name"
+                            required
+                        />
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Age:
+                        <input
+                            type="number"
+                            name="age"
+                            placeholder="Your age"
+                            required
+                        />
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Your email:
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Your email"
+                            required
+                        />
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Preferred Topics:</legend>
+                <div>
+                    <input
+                        type="checkbox"
+                        name="sportsTopic"
+                        id="sportsCheckbox"
+                        value="Yes"
+                        required
+                    />
+                    <label for="sportsCheckbox">Sports</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        name="technologyTopic"
+                        id="technologyCheckbox"
+                        value="Yes"
+                        required
+                    />
+                    <label for="technologyCheckbox">Technology</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        name="travelTopic"
+                        id="travelCheckbox"
+                        value="Yes"
+                        required
+                    />
+                    <label for="travelCheckbox">Travel</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Newsletter Frequency</legend>
+                <label for="dailyRadio">Daily</label>
+                <input
+                    type="radio"
+                    id="dailyRadio"
+                    name="newsletterFrequency"
+                    value="daily"
+                    required
+                />
+                <label for="weeklyRadio">Weekly</label>
+                <input
+                    type="radio"
+                    id="weeklyRadio"
+                    name="newsletterFrequency"
+                    value="weekly"
+                    required
+                />
+                <label for="monthlyRadio">Monthly</label>
+                <input
+                    type="radio"
+                    id="monthlyRadio"
+                    name="newsletterFrequency"
+                    value="monthly"
+                    required
+                />
+            </fieldset>
+            <fieldset>
+                <legend>Email Format and Comments</legend>
+                <div>
+                    <label for="emailFormatSelect">Email Format:</label>
+                    <select id="emailFormatSelect" name="emailFormat" required>
+                        <option value="html">HTML</option>
+                        <option value="plainText">Plain Text</option>
+                    </select>
+                    <div>
+                        <label for="additionalCommentsTextarea"
+                            >Additional Comments:</label
+                        >
+                        <textarea
+                            id="additionalCommentsTextarea"
+                            name="additionalComments"
+                            required
+                        ></textarea>
+                    </div>
+                </div>
+            </fieldset>
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </body>
+</html>
