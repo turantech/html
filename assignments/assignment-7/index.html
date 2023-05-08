@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" required />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+            required
+        />
+        <title>Assignment-7</title>
+    </head>
+    <body>
+        <h1>Multi-Purpose HTML Form</h1>
+        <form id="multiPurposeForm">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="fullNameInput">Full Name:</label>
+                    <input
+                        type="text"
+                        name="fullName"
+                        id="fullNameInput"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="emailInput">Email:</label>
+                    <input type="email" name="email" id="emailInput" required />
+                </div>
+                <div>
+                    <label for="phoneNumberInput">Phone Number:</label>
+                    <input
+                        type="tel"
+                        name="phoneNumber"
+                        id="phoneNumberInput"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="birthdateInput">Birthdate:</label>
+                    <input
+                        type="date"
+                        name="birthdate"
+                        id="birthdateInput"
+                        min="1900-01-01"
+                        max="2099-12-31"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="ageInput">Age:</label>
+                    <input
+                        type="number"
+                        name="age"
+                        id="ageInput"
+                        min="1"
+                        max="120"
+                        required
+                    />
+                </div>
+                <div>
+                    <label>Gender:</label>
+                    <input
+                        type="radio"
+                        name="gender"
+                        id="genderMaleInput"
+                        value="male"
+                        required
+                    />
+                    <label for="genderMaleInput">Male</label>
+                    <input
+                        type="radio"
+                        name="gender"
+                        id="genderFemaleInput"
+                        value="female"
+                        required
+                    />
+                    <label for="genderFemaleInput">Female</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Account Details</legend>
+                <div>
+                    <label for="usernameInput">Username:</label>
+                    <input
+                        type="text"
+                        name="username"
+                        id="usernameInput"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="passwordInput">Password:</label>
+                    <input
+                        type="password"
+                        name="password"
+                        id="passwordInput"
+                        required
+                    />
+                </div>
+                <div>
+                    <input
+                        type="hidden"
+                        name="secretMessage"
+                        id="secretMessageInput"
+                        value="some_secret_message"
+                        required
+                    />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <div>
+                    <label for="favoriteColorInput">Favorite Color:</label>
+                    <input
+                        type="color"
+                        name="favoriteColor"
+                        id="favoriteColorInput"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="newsletterSubscriptionCheckbox"
+                        >Newsletter Subscription:</label
+                    >
+                    <input
+                        type="checkbox"
+                        name="newsletterSubscription"
+                        id="newsletterSubscriptionCheckbox"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="preferredLanguageInput"
+                        >Preferred Language:</label
+                    >
+                    <select
+                        name="preferredLanguage"
+                        id="preferredLanguageInput"
+                    >
+                        <option value="en">English</option>
+                        <option value="es">Spanish</option>
+                        <option value="fr">French</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Attachments</legend>
+                <div>
+                    <label for="profilePictureInput">Profile Picture:</label>
+                    <input
+                        type="file"
+                        name="profilePicture"
+                        id="profilePictureInput"
+                        accept="image/*"
+                        required
+                    />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Location</legend>
+                <div>
+                    <label for="websiteInput">Website:</label>
+                    <input
+                        type="url"
+                        name="website"
+                        id="websiteInput"
+                        required
+                    />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Feedback</legend>
+                <div>
+                    <label for="satisfactionRatingInput"
+                        >Satisfaction Rating:</label
+                    >
+                    <input
+                        type="range"
+                        name="satisfactionRating"
+                        id="satisfactionRatingInput"
+                        min="0"
+                        max="100"
+                        step="1"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="commentsInput">Comments:</label>
+                    <textarea name="comments" id="commentsInput"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Schedule</legend>
+                <div>
+                    <label for="preferredMeetingTimeInput"
+                        >Preferred Meeting Time:</label
+                    >
+                    <input
+                        type="time"
+                        name="preferredMeetingTime"
+                        id="preferredMeetingTimeInput"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="preferredMeetingDayInput"
+                        >Preferred Meeting Day:</label
+                    >
+                    <input
+                        type="week"
+                        name="preferredMeetingDay"
+                        id="preferredMeetingDayInput"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="preferredMeetingMonthInput"
+                        >Preferred Meeting Month:</label
+                    >
+                    <input
+                        type="month"
+                        name="preferredMeetingMonth"
+                        id="preferredMeetingMonthInput"
+                        required
+                    />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Search</legend>
+                <div>
+                    <label for="searchArticlesInput"
+                        >Search for articles:</label
+                    >
+                    <input
+                        type="search"
+                        name="searchArticles"
+                        id="searchArticlesInput"
+                        required
+                    />
+                </div>
+            </fieldset>
+
+            <div>
+                <input type="submit" value="Submit" required />
+                <input type="reset" value="Reset" required />
+                <button type="button">Custom Button</button>
+            </div>
+
+            <div>
+                <label for="clickableImageInput">Icon Image:</label>
+                <input
+                    type="image"
+                    src="./submit.png"
+                    alt="Clickable Image"
+                    name="clickableImage"
+                    id="clickableImageInput"
+                    required
+                />
+            </div>
+        </form>
+    </body>
+</html>
